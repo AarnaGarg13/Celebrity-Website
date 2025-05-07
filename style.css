@@ -1,0 +1,226 @@
+body{
+    margin: 0;
+}
+.menu{
+    width: 100%;
+    background-color: cadetblue;
+    overflow: hidden;
+    position: fixed; /* comment */
+    top: 0;
+    right: 0;
+}
+.menu a{
+    float: right;
+    display: block;
+    color:blanchedalmond;
+    text-align: center;
+    padding: 14px 20px 14px 20px;
+    text-decoration: none;
+}
+.menu a:hover{
+    background-color: beige;
+    color:brown;
+}
+#rickImg{
+    border-radius: 12%;
+    margin: top 0;
+}
+#moreButton{
+    width: 120px;
+    height: 38px;
+    background-color: blanchedalmond;
+    color:brown;
+    font-weight: bold;  
+    font-family: 'Times New Roman'; 
+    font-size: 18px;
+}
+#heading{
+    color:blanchedalmond;
+    font-size: 80px;
+}
+.para1{
+    color:blanchedalmond;
+    font-size: 22px;
+    margin-left: 6px;
+    margin-right: 6px;
+    text-decoration: none;
+}
+.welcome{
+    color: blanchedalmond;
+    margin-top: 0;
+    font-size: 30px;
+}
+#hero{
+    font-size: 40px;
+    color: cadetblue;
+}
+#footer{
+    width: 100%;
+    overflow: hidden;
+    background-color: cadetblue;
+    text-align: center;
+    position:absolute /* comment */
+}
+#early_life{
+    color: cadetblue;
+    margin-left: 25px;
+    font-size: 25px;
+}
+#footer2{
+    width: 100%;
+    overflow: hidden;
+    background-color: cadetblue;
+    text-align: center;
+    position: absolute;
+}
+#bookImage{
+    width: 100%;
+    height: 400px
+}
+.mainImage{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.mainImage img{
+    width: 100%;
+    height: 450px;
+}
+#textOnImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(102, 151, 152);
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+.series{
+    color: blanchedalmond;
+    font-size: 30px;
+}
+.books img{
+    width: 180px;
+    height: 280px;
+}
+#buy{
+    background-color: cadetblue;
+    color: blanchedalmond;
+    font-size: 25px;
+}
+#buy:hover{
+    background-color: blanchedalmond;
+    color: brown;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#footer3{
+    width: 100%;
+    overflow: hidden;
+    background-color: cadetblue;
+    text-align: center;
+    position: absolute;
+}
+.infoButton{
+    width: 120px;
+    height: 38px;
+    background-color: blanchedalmond;
+    color:brown;
+    font-weight: bold;  
+    font-family: 'Times New Roman'; 
+    font-size: 18px;
+}
+.extras{
+    text-align: left;
+    font-size: 18px;
+    color: cadetblue;
+}
+.extras h2{
+    margin-left: 20px;
+    font-size: 20px;
+    color: blanchedalmond;
+    margin-bottom: 5px;
+}
+.extras h5{
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: blanchedalmond;
+}
+.extras ul{
+    margin-top: 5px;
+}
+.shorts{
+    text-decoration-color: cadetblue;
+    color: cadetblue;
+}
+.header2{
+    color: cadetblue;
+}
+#textOnProgress{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3b3737;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+.header3{
+    border: blanchedalmond;
+    border-width: 2px;
+    border-style: groove;
+    color: cadetblue;
+}
+.table th{
+    border-color: blanchedalmond;
+    border-width: 3px;
+    border-style: double;
+    color: cadetblue;
+    font-size: 32px;
+}
+.table td{
+    border-width: 3px;
+    border-style: double;
+    color: blanchedalmond;
+    font-size: 22px;
+    text-align: center;
+}
+.table{
+    position: static;
+}
+#textOnMail{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3b3737;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+#mailImage{
+    width: 100%;
+    height: 400px;
+}
+#collage{
+    width:1200px;
+    height: auto;
+}
